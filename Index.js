@@ -14,7 +14,7 @@ app.use(cors())
 
 app.use(express.urlencoded({extended:false}));
 
-app.use('/api/task',router )
+app.use('/api/v/task',router )
 
 app.listen(port, ()=>{
     console.log(`LISTEN ON: ${port} `)
